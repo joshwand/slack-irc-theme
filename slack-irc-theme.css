@@ -53,10 +53,6 @@
     width: 14px !important;
 }
 
-.light_theme ts-message .message_icon {
-    margin-top: 8px !important;
-}
-
 .light_theme .message.divider,
 .light_theme .message.first {
   border-top: 1px solid #ededed !important;
@@ -104,7 +100,7 @@
 
 .light_theme .message .message_content {
   padding-right: 100px !important;
-  margin-left: 40px !important;
+  margin-left: 70px !important;
 }
 
 /* No idea what this is */
