@@ -44,8 +44,8 @@
 .light_theme .message {
   position: relative !important;
   padding-left: 100px !important;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 0 !important;
+  /* padding-bottom: 10px !important; */
   margin: 0 !important;
 }
 
@@ -53,9 +53,20 @@
     width: 14px !important;
 }
 
+.light_theme ts-message .message_content .member {
+    margin-top: 3px !important;
+}
+
+/*.light_theme ts-message .message_icon {
+    margin-top: 8px !important;
+}
+*/
+
 .light_theme .message.divider,
 .light_theme .message.first {
   border-top: 1px solid #ededed !important;
+  padding-top: 10px !important;
+  margin-top: 4px !important;
 }
 
 .light_theme .message.show_user ~ .message:not(.show_user) {
