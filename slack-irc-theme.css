@@ -144,8 +144,9 @@
 }
 
 .light_theme .message .message_star_holder {
-  right: 60px !important;
+  right: 137px !important;
   left: auto !important;
+  margin-top: -12px;
 }
 
 .light_theme .message .msg_actions {
